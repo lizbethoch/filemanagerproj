@@ -1,24 +1,57 @@
-FIle Manager Project
+# File Management System
 
-Overview: This project is a graphical file management system built using Python and Tkinter. It allows user to perform basic file operations.
+A desktop file management application built with Python and Tkinter to demonstrate operating-system file handling concepts.
 
-Features:
--Create files and directories
--Open and edit files in a separate window
--Save file changes
--Delete and rename files and directories
--Naviage through folders
--Error handling
+## Overview
 
-Requirements:
--Python 3.x
--Tkinter
+This project implements a graphical file management system that allows users to interact with files and directories through a desktop GUI.
 
-How to Run:
-1. Open terminal in the project folder:
+The application was developed as an individual operating systems project and focuses on practical file-system operations, file handling, and interaction with the operating system through Python.
 
+## Features
+
+- Create files and directories
+- Open and edit files
+- Save file changes
+- Delete files and directories
+- Rename files and directories
+- Navigate through folders
+- Error handling for file operations
+
+## Operating System Concepts
+
+The project demonstrates several operating-system file handling concepts, including:
+
+- File creation, reading, writing, and closing
+- File and directory operations
+- File descriptors and resource management
+- File metadata
+- Interaction with operating-system file APIs
+
+Python's `with open()` pattern is used for file handling to support proper allocation and release of file resources.
+
+## Architecture
+
+The application is organized into three primary layers:
+
+1. **GUI Layer** — Tkinter interface used for user interaction
+2. **File Operations Layer** — Application logic responsible for file and directory operations
+3. **Operating System APIs** — Interfaces used to interact with the underlying operating system
+
+## Technologies
+
+- Python
+- Tkinter
+- Operating System File APIs
+
+## Requirements
+
+- Python 3.x
+- Tkinter
+
+## Running the Application
+
+Clone the repository and navigate to the project directory:
+
+```bash
 cd FileManagerProject
-
-2. Run the program
-
-python3 p3main.py
